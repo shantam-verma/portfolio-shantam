@@ -42,9 +42,14 @@ function Hero() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="bg-neutral-900 px-6 py-3 rounded-2xl">
+              <motion.button
+                variants={container(1.3)}
+                initial="hidden"
+                animate="visible"
+                className="bg-neutral-900 px-6 py-3 rounded-2xl"
+              >
                 View Resume
-              </button>
+              </motion.button>
             </a>
           </div>
         </div>
@@ -53,7 +58,7 @@ function Hero() {
             <motion.img
               initial={{ x: 100, opacity: 0, filter: "brightness(1)" }}
               animate={{ x: 0, opacity: 1, filter: "brightness(0.5)" }}
-              transition={{ duration: 1, delay: 1.2 }}
+              transition={{ duration: 1, delay: 1.5 }}
               className="w-[550px] h-[600px] rounded-2xl"
               src={profilePic}
               alt="Shantam Verma"
