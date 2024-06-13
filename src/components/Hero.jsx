@@ -46,7 +46,7 @@ function Hero() {
                 variants={container(1.3)}
                 initial="hidden"
                 animate="visible"
-                className="bg-neutral-900 px-6 py-3 rounded-2xl"
+                className="bg-neutral-900 px-6 py-3 rounded-2xl mb-10"
               >
                 View Resume
               </motion.button>
