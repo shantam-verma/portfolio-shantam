@@ -3,7 +3,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
-    <nav className=" mb-10 lg:mb-20 flex items-center justify-between py-6">
+    <nav className="mb-10 flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
         <h1 className="text-3xl font-medium">
           S.<span className="text-2xl">dev</span>
