@@ -10,7 +10,24 @@ export const ABOUT_TEXT = `Hey there, I'm Shantam Verma, a passionate Front-End 
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
+    year: "2024 - Present",
+    role: "Front-End Developer SDE-1",
+    company: "MotorPedia | Automotive Solutions Provider.",
+    description: `We streamline your dealership with effortless digitalization, seamless RTO operations, enhanced leads, and maximized conversions. Our services also include facilitating the buying and selling of cars, ensuring a comprehensive and efficient dealership experience.`,
+    technologies: [
+      "Javascript",
+      "React.js",
+      "Next.js",
+      "Material-UI",
+      "Tailwind CSS",
+      "Redux",
+      "TanStack Query",
+      "Formik",
+      "SEO",
+    ],
+  },
+  {
+    year: "2023 - 2024",
     role: "Front-End Developer",
     company: "Vigorous Healthtech Private Limited.",
     description: `Chikitsa is a healthcare solution designed to revolutionize the healthcare system. It aims to significantly reduce the time from appointment booking to doctor examination and prescription, streamlining the entire process for enhanced efficiency.`,
