@@ -55,17 +55,17 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Food Recipe",
-    link: "https://food-recipe-five-delta.vercel.app/",
+    title: "TasteBite - Food Recipes Website",
+    link: "https://tastebite-app.vercel.app/",
     image: project1,
     description:
-      "Implemented authentication with Google Firebase, integrated React Query for optimized data fetching and state management, and utilized Formik for efficient form handling, validation, and submission.",
+      "A recipe discovery platform built with Next.js 15, utilizing server-side rendering for fast, SEO-friendly pages. Features include token-based authentication with NextAuth, meal browsing by country, and optimized image loading with Placeholders. The site supports smooth animations with Framer Motion and light/dark mode through Next Theme. It also handles both client and server components, with an organized, scalable folder structure for easy maintenance.",
     technologies: [
       "Next.Js",
-      "Material UI",
+      "Tailwind css",
       "Formik",
-      "React-Query",
-      "Firebase",
+      "fetch",
+      "Framer Motion",
     ],
   },
   {
