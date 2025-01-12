@@ -38,7 +38,7 @@ function Hero() {
               {HERO_CONTENT}
             </motion.p>
             <a
-              href="https://drive.google.com/file/d/1U70RiHgF7Ok-jBS0NuTov6wluTckp7QAs/"
+              href="https://drive.google.com/file/d/1U70RiHgF7Ok-jBS0NuTov6wluTckp7QA/"
               target="_blank"
               rel="noopener noreferrer"
             >
